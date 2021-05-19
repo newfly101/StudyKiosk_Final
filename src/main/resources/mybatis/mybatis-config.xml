@@ -8,13 +8,13 @@
     </settings>
 
     <typeAliases>
-        <typeAlias type="io.aetherit.project.base.model.BaseUser" alias="BaseUser" />
+        <typeAlias type="com.newfly101.studykiosk.model.BaseUser" alias="BaseUser" />
 
-        <typeAlias type="io.aetherit.project.base.model.support.BaseUserType" alias="BaseUserType" />
+        <typeAlias type="com.newfly101.studykiosk.model.support.BaseUserType" alias="BaseUserType" />
     </typeAliases>
 
     <typeHandlers>
-        <typeHandler handler="io.aetherit.project.base.repository.typehandler.BooleanYnTypeHandler" javaType="Boolean" />
+        <typeHandler handler="com.newfly101.studykiosk.repository.typehandler.BooleanYnTypeHandler" javaType="Boolean" />
     </typeHandlers>
 
     <mappers>
