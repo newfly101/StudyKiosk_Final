@@ -1,4 +1,4 @@
-USE base;
+USE studykiosk;
 
 ##
 ## for Spring Session
